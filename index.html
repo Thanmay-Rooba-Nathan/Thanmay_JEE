@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JEE Aspirants Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #005bb5;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #003d80;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #005bb5;
+        }
+        .section {
+            margin: 20px 0;
+        }
+        footer {
+            background-color: #003d80;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #005bb5;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #003d80;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to JEE Aspirants Hub</h1>
+        <p>Your go-to place for JEE resources, tips, and guidance.</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#resources">Resources</a>
+        <a href="#tips">Tips</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <p>JEE Aspirants Hub is dedicated to helping students prepare for the JEE exams with curated resources, study materials, and expert tips. Our mission is to make your preparation journey smoother and more effective.</p>
+        </section>
+
+        <section id="resources" class="section">
+            <h2>Resources</h2>
+            <ul>
+                <li><strong>Physics:</strong> Recommended Books - H.C. Verma, D.C. Pandey, Resnick Halliday.</li>
+                <li><strong>Chemistry:</strong> Recommended Books - O.P. Tandon, J.D. Lee, R.C. Mukherjee.</li>
+                <li><strong>Mathematics:</strong> Recommended Books - I.A. Maron, R.D. Sharma, Cengage.</li>
+                <li><strong>Previous Year Papers:</strong> Solve past JEE papers for a better understanding of the exam pattern.</li>
+            </ul>
+        </section>
+
+        <section id="tips" class="section">
+            <h2>Preparation Tips</h2>
+            <ul>
+                <li>Plan a consistent study schedule and stick to it.</li>
+                <li>Focus on understanding concepts rather than rote memorization.</li>
+                <li>Take regular mock tests to gauge your preparation level.</li>
+                <li>Use time management strategies to allocate time to each subject efficiently.</li>
+                <li>Stay motivated and take breaks to avoid burnout.</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need personalized guidance, feel free to reach out to us using the form below.</p>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 JEE Aspirants Hub. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
